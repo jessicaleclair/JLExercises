@@ -1,7 +1,5 @@
 print("Hello, World!")
 
-{
-  print ( " ", quote = FALSE )
-  print ( "Hello, world!", quote = FALSE )
+print_greeting <- function(greeting="Hello, World!"){
+  print(greeting)
 }
-
